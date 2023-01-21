@@ -34,16 +34,16 @@ class LightColorSchema : ColorSchema() {
 
 //TODO: refactor DarkColorSchema
 class DarkColorSchema : ColorSchema() {
-    override val primary: Color = Color(0xFF94a5fb)
+    override val primary: Color = Color(0xFF3a59f7)
     override val onPrimary: Color = Color(0xFFEEEEEE)
     override val secondary: Color = Color(0xFFCEE2FB)
     override val onSecondary: Color = Color(0xFFEEEEEE)
     override val accent: Color = Color(0xFF0444FC)
-    override val background: Color = Color(0xFF121212)
-    override val surface: Color = Color(0xFF242424)
-    override val icon: Color = Color(0xFFEEEEEE)
-    override val hover: Color = Color(0xFFCEE2FB)
-    override val border: Color = Color(0xFFFFFFFF)
+    override val background: Color = Color(0xFF242424)
+    override val surface: Color = Color(0xFF121212)
+    override val icon: Color = Color(0xFF000000)
+    override val hover: Color = Color(0xFF71abf3)
+    override val border: Color = Color(0xFF727272)
     override val disabled: Color = Color(0xFF727272)
     override val text: Color = Color(0xFFEEEEEE)
 }
