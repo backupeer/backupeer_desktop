@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="backupeer_desktop-jvm-1.0-SNAPSHOT">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <root id="archive" name="backupeer_desktop-jvm-1.0-SNAPSHOT.jar">
+      <element id="module-output" name="backupeer_desktop.jvmMain" />
+    </root>
+  </artifact>
+</component>
