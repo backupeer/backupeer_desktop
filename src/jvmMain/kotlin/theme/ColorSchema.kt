@@ -38,7 +38,7 @@ class DarkColorSchema : ColorSchema() {
     override val onPrimary: Color = Color(0xFFEEEEEE)
     override val secondary: Color = Color(0xFFCEE2FB)
     override val onSecondary: Color = Color(0xFFEEEEEE)
-    override val accent: Color = Color(0xFF0444FC)
+    override val accent: Color = Color(0xFF012daa)
     override val background: Color = Color(0xFF242424)
     override val surface: Color = Color(0xFF121212)
     override val icon: Color = Color(0xFFEEEEEE)
