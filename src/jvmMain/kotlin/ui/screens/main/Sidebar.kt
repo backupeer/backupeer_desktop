@@ -15,6 +15,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.zIndex
 import di.MainScreenModule
 import org.kodein.di.instance
 import theme.ColorSchemaProvider
@@ -39,6 +40,7 @@ fun Sidebar() {
 
     Column(
         modifier = Modifier
+            .zIndex(100F)
             .fillMaxHeight()
             .width(50.dp)
             .background(ColorSchemaProvider.current.background)
